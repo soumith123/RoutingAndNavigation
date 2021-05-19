@@ -1,0 +1,53 @@
+button
+{
+    float: right;
+}
+.card
+{
+    border-radius: 15px;
+    box-shadow: 2px -2px 2px 2px gray;
+}
+.card:hover
+{
+    transform: scale(1.07);
+}
+#mobileName
+{
+    color: rgb(0,96,159);
+}
+#price
+{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+#actualPrice
+{
+    text-decoration:line-through;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+#discount
+{
+    color: rgb(50,205,50);
+    font-size: 16px;
+    font-weight: bold;
+}
+#exchange
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+#emi
+{
+    font-weight: bold;
+}
+@media screen and (min-width:150px) and (max-width:520px) 
+{
+    img
+    {
+        max-width:90%;
+    }
+    
+}

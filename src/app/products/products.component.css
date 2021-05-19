@@ -1,0 +1,17 @@
+a
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+a:hover
+{
+    color: tomato;
+    background-color: white;
+}
+.active.nav-link
+{
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+}

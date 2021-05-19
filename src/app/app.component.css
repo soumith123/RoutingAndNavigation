@@ -1,0 +1,14 @@
+a
+{
+    color: white;
+}
+a:hover
+{
+    background-color: tomato;
+    border-radius: 20px;
+}
+.active.nav-link
+{
+    font-weight: bold;
+    font-size: 17px;
+}

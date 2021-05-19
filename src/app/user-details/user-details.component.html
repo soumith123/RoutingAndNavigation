@@ -1,0 +1,30 @@
+<div class="container text-center border mt-3 text-black w-75 shadow" id="firstContainer">
+    <h3>
+        <img src="{{userObj.profilePic}}" width="20%" class="mt-1">
+    </h3>
+    <h3 id="name" class="text-dark">{{userObj.id}}. {{userObj.name}}</h3>
+    <h3 id="district">{{userObj.address.district}}</h3>
+    <div class="container text-white text-start w-75 mt-3 pt-3 pb-3" id="secondContainer">
+
+        <p class=" m-0 ms-5" id="mobileHeading">MOBILE</p>        
+        <h4><i class="fas fa-phone-alt me-4" id="call"></i>{{userObj.mobileno}}</h4>
+
+        <p class="m-0 ms-5 mt-4" id="emailHeading">EMAIL</p>
+        <h4><i class="fas fa-envelope me-4 text-warning"></i>{{userObj.email}}</h4>   
+        
+        
+    </div>
+
+    <div class="container text-start w-75 mt-3 mb-4 text-white" id="thirdContainer">
+
+        <p class="m-0 ms-5 pt-2" id="profession">PROFESSION</p>
+        <h4 class="mb-3"><i class="fas fa-user-tie me-4 text-dark"></i>{{userObj.profession}}</h4> 
+
+        <p class="m-0 ms-5">LOCATION</p>
+        <h4 class="mb-3">
+            <i class="fas fa-map-marker me-4 text-danger"></i>{{userObj.address.houseNo}}, {{userObj.address.village}}, {{userObj.address.mondal}},
+                <h4 class="ms-5 pb-2">{{userObj.address.pin}}, {{userObj.address.state}}</h4>
+        </h4>
+       
+    </div>
+</div>

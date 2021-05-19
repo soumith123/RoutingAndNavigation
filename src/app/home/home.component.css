@@ -1,0 +1,48 @@
+#Eletter
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+#para
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+#Wletter
+{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+}
+#para2
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+#para3
+{
+    font-size: 55px;
+}
+button
+{
+    font-size: 23px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#website
+{
+    color: rgb(9, 41, 146);
+}
+#buy
+{
+    color: orange;
+}
+#mobiles
+{
+    color:deeppink;
+}
+#footer
+{
+    color: rgb(252, 249, 249);
+    font-weight:bold;
+}

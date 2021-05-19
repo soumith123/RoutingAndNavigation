@@ -1,0 +1,53 @@
+#firstContainer
+{
+    background-color: white;
+    border-radius: 20px;
+}
+img
+{
+    border-radius: 50%;
+    border: 1px solid rgb(71, 70, 70);
+    box-shadow: 2px  2px gray;
+}
+#name
+{
+    color:white;
+    font-size: 22px;
+}
+#district
+{
+    font-size: 19px;
+}
+#secondContainer
+{
+    background-image:linear-gradient(to right,rgb(10, 126, 180),rgb(204, 87, 107));
+    border-radius: 20px;
+    box-shadow: 1px 2px rgb(170, 37, 59);
+}
+#mobileHeading
+{
+    font-size:18px;
+}
+#emailHeading
+{
+    font-size: 18px;
+}
+#thirdContainer
+{
+    
+    background-image:linear-gradient(to right,rgb(10, 126, 180),rgb(204, 87, 107));
+    border-radius: 18px;
+    box-shadow: 1px 2px rgb(170, 37, 59);
+}
+#profession
+{
+    font-size:17px;
+}
+#call
+{
+    color: rgb(42, 218, 19);
+}
+h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
