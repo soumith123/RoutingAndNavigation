@@ -2,11 +2,11 @@
 <div class="container bg-white mt-5 pt-3 pb-4">
     <h2 class="text-center p-0 m-0 mb-3"><i class="fas fa-check-circle me-3"></i>Click and Get Details</h2>
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
-        <div *ngFor="let postData of userObj" class="text-star">
-            <button class="btn btn-primary btn-lg text-start p-2 m-3" (click)="onSelectId(postData.id)">
-                <i class="far fa-id-card me-1 mb-3 me-2 text-danger"></i><b>ID: </b>{{postData.id}}<br>
+        <div *ngFor="let userData of userObj" class="text-star">
+            <button class="btn btn-primary btn-lg text-start p-2 m-3" (click)="onSelectId(userData.id)">
+                <i class="far fa-id-card me-1 mb-3 me-2 text-danger"></i><b>ID: </b>{{userData.id}}<br>
                 <p class="m-0"><i class="fas fa-envelope me-2 text-warning"></i><b>EMAIL</b></p>
-                <p class="mb-0 ms-4 mt-0">{{postData.email}}</p></button>
+                <p class="mb-0 ms-4 mt-0">{{userData.email}}</p></button>
         </div>
     </div>
 </div>

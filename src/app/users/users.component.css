@@ -13,3 +13,7 @@ h2
     font-weight: bold;
     font-family: sans-serif;
 }
+button:hover
+{
+    transform: scale(1.1);
+}

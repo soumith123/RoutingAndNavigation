@@ -2,6 +2,11 @@ button
 {
     float: right;
 }
+.card
+{
+    border-radius: 15px;
+    box-shadow: 2px -2px 2px 2px gray;
+}
 .card:hover
 {
     transform: scale(1.07);

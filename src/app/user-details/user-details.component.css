@@ -51,3 +51,8 @@ h4
 {
     font-family: 'Josefin Sans', sans-serif;
 }
+img:hover
+{
+    transform: scale(1.07);
+    margin-bottom: 5px;
+}

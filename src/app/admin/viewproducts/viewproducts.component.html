@@ -1,0 +1,27 @@
+<table class="table text-center text-white table-bordered table-lg mt-5" >
+    <thead>
+        <th class="p-3">Brand</th>
+        <th class="p-3">rating</th>
+        <th class="p-3">Count</th>
+        <th class="p-3">DiscountPrice</th>
+        <th class="p-3">ActualPrice</th>
+        <th class="p-3">EMI</th>
+        <th class="p-3">ExchangeOffer</th>
+        <th class="p-3">Image</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let mobile of mobiles">
+            <td class="p-4">{{mobile.productTitle}}</td>
+            <td class="p-4">{{mobile.rating}}</td>
+            <td class="p-4">{{mobile.count}}</td>
+            <td class="p-4">{{mobile.discountPrice}}</td>
+            <td class="p-4">{{mobile.actualPrice}}</td>
+            <td class="p-4">{{mobile.EMI}}</td>
+            <td class="p-4">{{mobile.exchangeOffer}}</td>
+            <td>            
+                <img src="{{mobile.productImage}}" width="50%" class="ms-0">
+            </td>
+
+        </tr>
+    </tbody>
+</table>

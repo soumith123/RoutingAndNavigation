@@ -19,7 +19,9 @@ import { TelevisionsComponent } from './televisions/televisions.component';
 import { MobiledetailsComponent } from './mobiledetails/mobiledetails.component';
 import { BikesdetailsComponent } from './bikesdetails/bikesdetails.component';
 import { TelevisionsdetailsComponent } from './televisionsdetails/televisionsdetails.component';
-
+import { ViewMobilesComponent } from './view-mobiles/view-mobiles.component';
+import { AddNewMobileComponent } from './add-new-mobile/add-new-mobile.component';
+import {FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,12 +40,15 @@ import { TelevisionsdetailsComponent } from './televisionsdetails/televisionsdet
     TelevisionsComponent,
     MobiledetailsComponent,
     BikesdetailsComponent,
-    TelevisionsdetailsComponent
+    TelevisionsdetailsComponent,
+    ViewMobilesComponent,
+    AddNewMobileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,3 +10,8 @@ textarea
 {
     border-radius: 15px;
 }
+label
+{
+    font-size: 16px;
+    font-weight:500;
+}
