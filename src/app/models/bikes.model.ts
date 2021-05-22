@@ -1,4 +1,4 @@
-export class Mobiles
+export class Bikes
 {
     constructor(public productTitle:string, public productImage:string, public description:string) {}
         // public count:string, public discountPrice:string, public actualPrice:string,

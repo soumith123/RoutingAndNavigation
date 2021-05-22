@@ -1,7 +1,9 @@
 export interface Product
 {
    productTitle:string;
-   productImage:string;
+   description:string;
+   productImage:string;   
+   /*
    rating:string;
    count:string;
    discountPrice:string;
@@ -9,4 +11,5 @@ export interface Product
    discount:string;
    EMI:string;
    exchangeOffer:string; 
+   */
 }

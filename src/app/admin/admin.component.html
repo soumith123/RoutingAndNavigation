@@ -1,4 +1,41 @@
-<a routerLink="viewproducts">View Products</a>
+<!-- <a routerLink="viewproducts">View Products</a>
+<a routerLink="addnewmobile">Add Mobile</a> -->
+
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav p-1">
+
+          <li class="nav-item me-2">
+            <a class="nav-link active" routerLink="viewmobiles" routerLinkActive="active">View Mobiles</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="addnewmobile"  routerLinkActive="active">Add Mobile</a>
+          </li>
+
+          <li class="nav-item me-2">
+            <a class="nav-link active" routerLink="viewbikes" routerLinkActive="active">View Bikes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="addnewbike"  routerLinkActive="active">Add Bike</a>
+          </li>
+
+          <li class="nav-item me-2">
+            <a class="nav-link active" routerLink="viewtelevisions" routerLinkActive="active">View Televisions</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="addnewtelevision"  routerLinkActive="active">Add Televisions</a>
+          </li>
+
+        </ul>
+    </div>
+</div>
+</nav>
+
 
 <div>
     <router-outlet></router-outlet>

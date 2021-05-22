@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddNewMobileComponent } from './add-new-mobile/add-new-mobile.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FakedataComponent } from './fakedata/fakedata.component';
@@ -23,7 +22,6 @@ const routes: Routes = [
   {path:'products', component:ProductsComponent, children:[
     {path:'mobiles', component:MobilesComponent,children:[
       {path:'viewmobiles', component:ViewMobilesComponent},
-      {path:'addmobiles', component:AddNewMobileComponent},
       {path:'' ,redirectTo:'/products/mobiles/viewmobiles', pathMatch:'full'}
     ]},
     {path:'bikes', component:BikesComponent},

@@ -1,0 +1,28 @@
+<div class="row mt-5">
+    <div class="col-sm-2 col-md-3"></div>
+    <div class="col-sm-8 col-md-6">
+      <form (ngSubmit)="onSubmitNewTelevision()">
+          
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pt" placeholder="name@example.com" name="productTitle"
+            [(ngModel)]="televisionModel.productTitle">
+          <label for="pt">Brand</label>
+        </div>
+       
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pd" placeholder="Password" name="description"
+            [(ngModel)]="televisionModel.description">
+          <label for="pd">Descrption</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="pi" placeholder="Password" name="productImage"
+              [(ngModel)]="televisionModel.productImage">
+            <label for="pi">Image URL</label>
+        </div>
+
+        <button class="btn btn-warning float-end" type="submit">Add</button>
+      </form>
+    </div>
+    <div class="col-sm-2 col-md-3"></div>
+  </div>

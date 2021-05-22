@@ -14,4 +14,20 @@ export class TelevisionsdataService {
   {
     return this.hc.get<Product[]>("http://localhost:3000/television")
   }
+
+  createNewTelevision(bikeObj):Observable<any>
+  {
+    return this.hc.post("http://localhost:3000/television",bikeObj)
+  }
+
+  updateTelevision(modifiedtelevisionObj):Observable<any>
+  {
+    return this.hc.put("http://localhost:3000/television/"+modifiedtelevisionObj.id,modifiedtelevisionObj)
+  }
+
+  deleteTelevision(id):Observable<any>
+  {
+    return this.hc.delete("http://localhost:3000/television/"+id)
+  }
+  
 }

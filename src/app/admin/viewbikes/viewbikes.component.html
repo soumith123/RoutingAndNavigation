@@ -1,0 +1,60 @@
+<div class="container bg-light p-2">
+    <form #ref="ngForm" (ngSubmit)="saveBike(ref.value)">
+        <table class="table text-center">
+            <thead>
+                <th>Brand</th>
+                <th>Description</th>
+                <th>Image</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let bike of bikes; let ind=index">
+
+                    <!-- Product Title -->
+                    <td>
+                        <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
+                            {{bike.productTitle}}
+                        </span>
+
+                        <input type="text" name="productTitle"  [(ngModel)]="editBikeObj.productTitle"
+                                *ngIf="editBikeStatus && editBikeIndex==ind">
+
+                    </td>
+
+                    <!-- Description -->
+                    <td>
+                        <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
+                            {{bike.description}}
+                        </span>
+
+                        <input type="text" name="description"  [(ngModel)]="editBikeObj.description"
+                                *ngIf="editBikeStatus && editBikeIndex==ind">
+
+                        
+                    </td>
+
+                    <!-- Product Image -->
+
+                    <td>
+                        <img src="{{bike.productImage}}" width="150px">
+                    </td>
+
+                    <!-- Edit and delete -->
+
+                    <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
+                        <button class="btn btn-danger btn-sm p-1 m-1" (click)="editBike(bike,ind)"><i
+                            class="fas fa-edit text-warning"></i></button>
+                         <button class="btn btn-warning btn-sm p-1 m-1"><i
+                            class="fas fa-trash-alt text-danger" (click)="deleteBike(bike)"></i></button> 
+                    </span>
+
+                    <span *ngIf="editBikeStatus && editBikeIndex==ind">
+                        <button class="btn btn-sm btn-success" type="submit"><i
+                                class="fas fa-save text-white"></i></button>
+                    </span>
+                    
+
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>

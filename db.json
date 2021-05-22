@@ -1,383 +1,290 @@
 {
-    "mobiles":
-    [
-        {
-          "productTitle": "Realme 5 (Chroma White..8 GB,128 GB)",
-          "productImage": "https://windzard.com/wp-content/uploads/2020/01/1-Blue-6.jpg",
-          "rating": "4.5",
-          "count": "(79,991)",
-          "actualPrice": "₹18,999",
-          "discountPrice": "₹16,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹15,150 off on Exchange"
-        },
-        {
-          "productTitle": "Realme 6(Comet White..6 GB, 4 GB)",
-          "productImage": "https://image01.realme.net/general/20200302/1583145086637.jpg",
-          "rating": "4.4",
-          "count": "(1,79,689)",
-          "actualPrice": "₹17,999",
-          "discountPrice": "₹14,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹14,450 off on Exchange"
-        },
-        {
-          "productTitle": "Realme 7(Mist White..8 GB, 128 GB)",
-          "productImage": "https://image01.realme.net/general/20200828/1598597490449.jpg",
-          "rating": "4.3",
-          "count": "(78,244)",
-          "actualPrice": "₹19,999",
-          "discountPrice": "₹17,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹15,150 off on Exchange"
-        },
-        {
-          "productTitle": "Realme 7i(Fusion Blue..4 GB, 64 GB)",
-          "productImage": "https://image01.realme.net/general/20201006/1601975981304.jpg",
-          "rating": "4.3",
-          "count": "(2,73,468)",
-          "actualPrice": "₹13,999",
-          "discountPrice": "₹11,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹11,200 off on Exchange"
-        },
-        {
-          "productTitle": "Realme C12(Mist White..8 GB, 128 GB)",
-          "productImage": "https://image01.realme.net/general/20200807/1596789155554.png",
-          "rating": "4.4",
-          "count": "(2,71,795)",
-          "actualPrice": "₹10,999",
-          "discountPrice": "₹7,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹7,450 off on Exchange"
-        },
-        {
-          "productTitle": "Narzo 20(Victory Blue..4 GB, 128 GB)",
-          "productImage": "https://image01.realme.net/general/20200917/1600331801982.jpg",
-          "rating": "4.3",
-          "count": "(4,02,997)",
-          "actualPrice": "₹13,999",
-          "discountPrice": "₹10,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto ₹10,350 off on Exchange"
-        }
-    ],
-
-    "bikes":
-    [
-        {
-          "productTitle": "Harley-Davidson",
-          "productImage": "https://2.imimg.com/data2/KM/WW/MY-/harley-davidson-v-rod-front-500x500.jpg",
-          "rating": "4",
-          "count": "(23,456)",
-          "actualPrice": "1,29,999",
-          "discountPrice": "₹99,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 30,350 off on Exchange"
-        },
-        {
-          "productTitle": "Mahindra",
-          "productImage": "https://www.motorbeam.com/wp-content/uploads/Mahindra_Sym__Cevalo_125.jpg",
-          "rating": "3.4",
-          "count": "(32,739)",
-          "actualPrice": "80,999",
-          "discountPrice": "₹75,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 25,350 off on Exchange"
-        },
-        {
-          "productTitle": "MCN Plus",
-          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQ68iZkT_IdZ-zMNjo5LzOlBE-iXyIc-T3Q&usqp=CAU",
-          "rating": "4.3",
-          "count": "(40,267)",
-          "actualPrice": "1,00,999",
-          "discountPrice": "₹89,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 25,350 off on Exchange"
-        },
-        {
-          "productTitle": "Yamaha",
-          "productImage": "https://images.financialexpress.com/2020/07/Yamaha-fz25-green-3qtr-660.jpg",
-          "rating": "4",
-          "count": "(4,675)",
-          "actualPrice": "1,29,999",
-          "discountPrice": "₹99,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 30,350 off on Exchange"
-        },
-        {
-          "productTitle": "KTM",
-          "productImage": "https://blog.gaadikey.com/wp-content/uploads/2015/06/KTM-RC8-front-e1434601745262.jpg",
-          "rating": "4.5",
-          "count": "(50,267)",
-          "actualPrice": "1,20,999",
-          "discountPrice": "₹99,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 35,350 off on Exchange"
-        },
-        {
-          "productTitle": "Vespa",
-          "productImage": "https://ic1.maxabout.us/autos/tw_india//B/2020/6/bs6-vespa-lx-125.jpg",
-          "rating": "4.7",
-          "count": "(23,675)",
-          "actualPrice": "1,20,999",
-          "discountPrice": "₹95,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 30,350 off on Exchange"
-        }
-    ],
-    "television":
-    [
-        {
-          "productTitle": "Realme TV",
-          "productImage": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/tvs/Realme_32_in_Smart_TV_ph/Realme_32_in_Smart_TV_ph_L_1.jpg",
-          "rating": "4.3",
-          "count": "(40,376)",
-          "actualPrice": "17,999",
-          "discountPrice": "₹14,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 8,350 off on Exchange"
-        },
-        {
-          "productTitle": "Samsung TV",
-          "productImage": "https://i.gadgets360cdn.com/products/televisions/large/1548154443_832_samsung_40-inch-led-full-hd-tv-series-5-40n5000.jpg",
-          "rating": "4",
-          "count": "(30,267)",
-          "actualPrice": "19,999",
-          "discountPrice": "16,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 9,350 off on Exchange"
-        },
-        {
-          "productTitle": "MI TV",
-          "productImage": "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-tv-4x-40/specs_01.png",
-          "rating": "4.3",
-          "count": "(25,275)",
-          "actualPrice": "17,999",
-          "discountPrice": "14,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 8,350 off on Exchange"
-        },
-        {
-          "productTitle": "SONY TV",
-          "productImage": "https://images-na.ssl-images-amazon.com/images/I/91J0vrjGY3L._AC_SX355_.jpg",
-          "rating": "4.3",
-          "count": "(15,675)",
-          "actualPrice": "20,999",
-          "discountPrice": "17,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 11,350 off on Exchange"
-        },
-        {
-          "productTitle": "ALDI Bauhan",
-          "productImage": "https://cdn.productreview.com.au/resize/article-image/48942475-33bc-4ea7-9749-256e91b54323?height=300&cover=&withoutEnlargement=true&v=2",
-          "rating": "4.2",
-          "count": "(15,275)",
-          "actualPrice": "19,999",
-          "discountPrice": "15,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 8,350 off on Exchange"
-        },
-        {
-          "productTitle": "SOUNDBAR",
-          "productImage": "https://images-na.ssl-images-amazon.com/images/I/61zh375VKwL._SL1500_.jpg",
-          "rating": "4",
-          "count": "(9,675)",
-          "actualPrice": "14,999",
-          "discountPrice": "12,999",
-          "discount": "",
-          "EMI": "No Cost EMI",
-          "exchangeOffer": "Upto 11,350 off on Exchange"
-        }
-    ],
-    "users":
-    [
-      {
-          "id":1,
-          "email":"soumithgone@gmail.com",
-          "name":"Soumith Gone",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170658/rohit-sharma.jpg",
-          "address":
-          {
-              "houseNo":"3-23A",
-              "village":"Annaram",
-              "mondal":"Ramareddy",
-              "district":"Kamareddy",
-              "pin":503144,
-              "state":"Telangana"
-          },                
-          "profession":"Student",
-          "mobileno":9618563873
+  "mobiles": [
+    {
+      "productTitle": "Realme 5  (Comet Blue..4 GB, 128 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 1,
+      "productImage": "https://windzard.com/wp-content/uploads/2020/01/1-Blue-6.jpg"
+    },
+    {
+      "id": 2,
+      "productTitle": "Realme 6(Comet White..6 GB, 4 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "productImage": "https://image01.realme.net/general/20200302/1583145086637.jpg"
+    },
+    {
+      "id": 3,
+      "productTitle": "Realme 7(Mist White..8 GB, 128 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "productImage": "https://image01.realme.net/general/20200828/1598597490449.jpg"
+    },
+    {
+      "id": 4,
+      "productTitle": "Realme 7i(Fusion Blue..4 GB, 64 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "productImage": "https://image01.realme.net/general/20201006/1601975981304.jpg"
+    },
+    {
+      "id": 5,
+      "productTitle": "Realme C12(Mist White..8 GB, 128 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "productImage": "https://image01.realme.net/general/20200807/1596789155554.png"
+    },
+    {
+      "id": 6,
+      "productTitle": "Narzo 20(Victory Blue..4 GB, 128 GB)",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "productImage": "https://image01.realme.net/general/20200917/1600331801982.jpg"
+    },
+    {
+      "productTitle": "Realme 8 pro",
+      "productImage": "https://www.kibotek.com/wp-content/uploads/2021/03/kiboTEK_realme_8_pro_016.png",
+      "description": " ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 7
+    }
+  ],
+  "bikes": [
+    {
+      "productTitle": "Harley-Davidson",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 1,
+      "productImage": "https://2.imimg.com/data2/KM/WW/MY-/harley-davidson-v-rod-front-500x500.jpg"
+    },
+    {
+      "id": 3,
+      "productTitle": "MCN Plus",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQ68iZkT_IdZ-zMNjo5LzOlBE-iXyIc-T3Q&usqp=CAU",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 4,
+      "productTitle": "Yamaha",
+      "productImage": "https://images.financialexpress.com/2020/07/Yamaha-fz25-green-3qtr-660.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 5,
+      "productTitle": "KTM",
+      "productImage": "https://blog.gaadikey.com/wp-content/uploads/2015/06/KTM-RC8-front-e1434601745262.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 6,
+      "productTitle": "Vespa",
+      "productImage": "https://ic1.maxabout.us/autos/tw_india//B/2020/6/bs6-vespa-lx-125.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "productTitle": "CfMoto",
+      "productImage": "https://media.zigcdn.com/media/content/2019/Jul/400nk-10_720x540.jpg",
+      "description": " ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 7
+    },
+    {
+      "productTitle": "Mahindra",
+      "productImage": "https://www.motorbeam.com/wp-content/uploads/Mahindra_Sym__Cevalo_125.jpg",
+      "description": " ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 8
+    }
+  ],
+  "television": [
+    {
+      "productTitle": "Realme ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!",
+      "id": 1,
+      "productImage": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/tvs/Realme_32_in_Smart_TV_ph/Realme_32_in_Smart_TV_ph_L_1.jpg"
+    },
+    {
+      "id": 2,
+      "productTitle": "Samsung TV",
+      "productImage": "https://i.gadgets360cdn.com/products/televisions/large/1548154443_832_samsung_40-inch-led-full-hd-tv-series-5-40n5000.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 3,
+      "productTitle": "MI TV",
+      "productImage": "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-tv-4x-40/specs_01.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 4,
+      "productTitle": "SONY TV",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/I/91J0vrjGY3L._AC_SX355_.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 5,
+      "productTitle": "ALDI Bauhan",
+      "productImage": "https://cdn.productreview.com.au/resize/article-image/48942475-33bc-4ea7-9749-256e91b54323?height=300&cover=&withoutEnlargement=true&v=2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    },
+    {
+      "id": 6,
+      "productTitle": "SOUNDBAR",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/I/61zh375VKwL._SL1500_.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi!"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "soumithgone@gmail.com",
+      "name": "Soumith Gone",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170658/rohit-sharma.jpg",
+      "address": {
+        "houseNo": "3-23A",
+        "village": "Annaram",
+        "mondal": "Ramareddy",
+        "district": "Kamareddy",
+        "pin": 503144,
+        "state": "Telangana"
       },
-      {
-          "id":2,
-          "email":"sathishdevuni@gmail.com",
-          "name":"Sathish Devuni",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170660/shikhar-dhawan.jpg",
-          "address":
-          {
-              "houseNo":"3-22A",
-              "village":"Ramayampet",
-              "mondal":"Ramayampet",
-              "district":"Kamareddy",
-              "pin":503121,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":9666638886
+      "profession": "Student",
+      "mobileno": 9618563873
+    },
+    {
+      "id": 2,
+      "email": "sathishdevuni@gmail.com",
+      "name": "Sathish Devuni",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170660/shikhar-dhawan.jpg",
+      "address": {
+        "houseNo": "3-22A",
+        "village": "Ramayampet",
+        "mondal": "Ramayampet",
+        "district": "Kamareddy",
+        "pin": 503121,
+        "state": "Telangana"
       },
-      {
-          "id":3,
-          "email":"prashanthatnala@gmail.com",
-          "name":"Prashanth Atnala",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170661/virat-kohli.jpg",
-          "address":
-          {
-              "houseNo":"3-21A",
-              "village":"Kamareddy",
-              "mondal":"Kamareddy",
-              "district":"Kamareddy",
-              "pin":503135,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":8978699153
+      "profession": "Student",
+      "mobileno": 9666638886
+    },
+    {
+      "id": 3,
+      "email": "prashanthatnala@gmail.com",
+      "name": "Prashanth Atnala",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170661/virat-kohli.jpg",
+      "address": {
+        "houseNo": "3-21A",
+        "village": "Kamareddy",
+        "mondal": "Kamareddy",
+        "district": "Kamareddy",
+        "pin": 503135,
+        "state": "Telangana"
       },
-      {
-          "id":4,
-          "email":"vishnu1234@gmail.com",
-          "name":"Vishnu Puppala",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170673/kl-rahul.jpg",
-          "address":
-          {
-              "houseNo":"3-20A",
-              "village":"Biknur",
-              "mondal":"Biknur",
-              "district":"Kamaredyy",
-              "pin":503124,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":9756936449
+      "profession": "Student",
+      "mobileno": 8978699153
+    },
+    {
+      "id": 4,
+      "email": "vishnu1234@gmail.com",
+      "name": "Vishnu Puppala",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170673/kl-rahul.jpg",
+      "address": {
+        "houseNo": "3-20A",
+        "village": "Biknur",
+        "mondal": "Biknur",
+        "district": "Kamaredyy",
+        "pin": 503124,
+        "state": "Telangana"
       },
-      {
-          "id":5,
-          "email":"balu9876@gmail.com",
-          "name":"Balu Devuni",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170677/ms-dhoni.jpg",
-          "address":
-          {
-              "houseNo":"3-19A",
-              "village":"Rajampet",
-              "mondal":"Kamareddy",
-              "district":"Kamareddy",
-              "pin":503145,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":9138726943
+      "profession": "Student",
+      "mobileno": 9756936449
+    },
+    {
+      "id": 5,
+      "email": "balu9876@gmail.com",
+      "name": "Balu Devuni",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170677/ms-dhoni.jpg",
+      "address": {
+        "houseNo": "3-19A",
+        "village": "Rajampet",
+        "mondal": "Kamareddy",
+        "district": "Kamareddy",
+        "pin": 503145,
+        "state": "Telangana"
       },
-      {
-          "id":6,
-          "email":"hemanthpuppala@gmail.com",
-          "name":"Hemanth Puppala",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c171010/rishabh-pant.jpg",
-          "address":
-          {
-              "houseNo":"3-18A",
-              "village":"Siriconda",
-              "mondal":"Siriconda",
-              "district":"Nizamabad",
-              "pin":503135,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":7459723912
+      "profession": "Student",
+      "mobileno": 9138726943
+    },
+    {
+      "id": 6,
+      "email": "hemanthpuppala@gmail.com",
+      "name": "Hemanth Puppala",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c171010/rishabh-pant.jpg",
+      "address": {
+        "houseNo": "3-18A",
+        "village": "Siriconda",
+        "mondal": "Siriconda",
+        "district": "Nizamabad",
+        "pin": 503135,
+        "state": "Telangana"
       },
-      {
-          "id":7,
-          "email":"sampathsaamala@gmail.com",
-          "name":"Sampath Samala",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170670/ravindra-jadeja.jpg",
-          "address":
-          {
-              "houseNo":"3-17A",
-              "village":"Kamareddy",
-              "mondal":"Kamareddy",
-              "district":"Kamareddy",
-              "pin":503100,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":6302490071           
+      "profession": "Student",
+      "mobileno": 7459723912
+    },
+    {
+      "id": 7,
+      "email": "sampathsaamala@gmail.com",
+      "name": "Sampath Samala",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170670/ravindra-jadeja.jpg",
+      "address": {
+        "houseNo": "3-17A",
+        "village": "Kamareddy",
+        "mondal": "Kamareddy",
+        "district": "Kamareddy",
+        "pin": 503100,
+        "state": "Telangana"
       },
-      {
-          "id":8,
-          "email":"keerthan8463@gmail.com",
-          "name":"Keerthan Taraka",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170685/jasprit-bumrah.jpg",
-          "address":
-          {
-              "houseNo":"3-16A",
-              "village":"Nizamabad",
-              "mondal":"Nizamabad",
-              "district":"Nizamabad",
-              "pin":503124,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":7493182736
+      "profession": "Student",
+      "mobileno": 6302490071
+    },
+    {
+      "id": 8,
+      "email": "keerthan8463@gmail.com",
+      "name": "Keerthan Taraka",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170685/jasprit-bumrah.jpg",
+      "address": {
+        "houseNo": "3-16A",
+        "village": "Nizamabad",
+        "mondal": "Nizamabad",
+        "district": "Nizamabad",
+        "pin": 503124,
+        "state": "Telangana"
       },
-      {
-          "id":9,
-          "email":"rohithgoud@gmail.com",
-          "name":"Rohith Goud",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170689/bhuvneshwar-kumar.jpg",
-          "address":
-          {
-              "houseNo":"3-15A",
-              "village":"Annaram",
-              "mondal":"Ramareddy",
-              "district":"Kamareddy",
-              "pin":503144,
-              "state":"Telangana"
-          },
-          "profession":"Student",
-          "mobileno":9010041200
+      "profession": "Student",
+      "mobileno": 7493182736
+    },
+    {
+      "id": 9,
+      "email": "rohithgoud@gmail.com",
+      "name": "Rohith Goud",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170689/bhuvneshwar-kumar.jpg",
+      "address": {
+        "houseNo": "3-15A",
+        "village": "Annaram",
+        "mondal": "Ramareddy",
+        "district": "Kamareddy",
+        "pin": 503144,
+        "state": "Telangana"
       },
-      {
-          "id":10,
-          "email":"vasanthrao@gmail.com",
-          "name":"Vasanth Subavath",
-          "profilePic":"https://m.cricbuzz.com/a/img/v1/192x192/i1/c170684/mohammed-shami.jpg",
-          "address":
-              {
-                  "houseNo":"3-14A",
-                  "village":"Annaram",
-                  "mondal":"Ramareddy",
-                  "district":"Kamareddy",
-                  "pin":503144,
-                  "state":"Telangana"
-              },
-          "profession":"Student",
-          "mobileno":9849868691
-      }
-    ]
+      "profession": "Student",
+      "mobileno": 9010041200
+    },
+    {
+      "id": 10,
+      "email": "vasanthrao@gmail.com",
+      "name": "Vasanth Subavath",
+      "profilePic": "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170684/mohammed-shami.jpg",
+      "address": {
+        "houseNo": "3-14A",
+        "village": "Annaram",
+        "mondal": "Ramareddy",
+        "district": "Kamareddy",
+        "pin": 503144,
+        "state": "Telangana"
+      },
+      "profession": "Student",
+      "mobileno": 9849868691
+    }
+  ]
 }

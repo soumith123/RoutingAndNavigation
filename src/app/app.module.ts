@@ -20,8 +20,9 @@ import { MobiledetailsComponent } from './mobiledetails/mobiledetails.component'
 import { BikesdetailsComponent } from './bikesdetails/bikesdetails.component';
 import { TelevisionsdetailsComponent } from './televisionsdetails/televisionsdetails.component';
 import { ViewMobilesComponent } from './view-mobiles/view-mobiles.component';
-import { AddNewMobileComponent } from './add-new-mobile/add-new-mobile.component';
 import {FormsModule} from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,13 +43,12 @@ import {FormsModule} from '@angular/forms';
     BikesdetailsComponent,
     TelevisionsdetailsComponent,
     ViewMobilesComponent,
-    AddNewMobileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
