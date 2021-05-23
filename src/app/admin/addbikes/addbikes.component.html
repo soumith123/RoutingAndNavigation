@@ -1,7 +1,9 @@
-<h2 class="text-center mt-5">Enter New Bike Details</h2>
+<h1 class="text-center mt-5">Enter New Bike Details</h1>
 <div class="row mt-4">
     <div class="col-sm-2 col-md-3"></div>
     <div class="col-sm-8 col-md-6">
+
+      <!-- Form to submit data to creating product -->
       <form (ngSubmit)="onSubmitNewBike()">
           
         <div class="form-floating mb-3">
@@ -22,7 +24,7 @@
             <label for="pi">Image URL</label>
         </div>
 
-        <button class="btn btn-warning float-end text-white" type="submit">
+        <button class="btn btn-success float-end text-white" type="submit">
               <i class="fas fa-plus-circle me-2"></i>Add</button>
       </form>
     </div>

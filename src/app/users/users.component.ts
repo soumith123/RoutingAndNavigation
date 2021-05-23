@@ -12,6 +12,8 @@ export class UsersComponent implements OnInit {
 
   // injecting the service to component class
   constructor(private usObj:UserDataService, private router: Router) {}
+
+  
   // storing the data inside object
   userObj:Users[]=[];
 
@@ -30,7 +32,7 @@ export class UsersComponent implements OnInit {
     )
   }
   
-  // giving the name and id to the url
+  // method to redirect uto user after clicking on id
   onSelectId(id)
   {
     this.router.navigateByUrl('users/'+id)

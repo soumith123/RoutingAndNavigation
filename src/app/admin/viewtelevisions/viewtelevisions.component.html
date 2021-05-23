@@ -11,6 +11,8 @@
 
                     <!-- Product Title -->
                     <td>
+                        <!-- code for swap edit and save -->
+                        <!-- while editing save button appears -->
                         <span *ngIf="!editTelevisionStatus || editTelevisionIndex!==ind">
                             {{television.productTitle}}
                         </span>
@@ -38,15 +40,21 @@
                         <img src="{{television.productImage}}" width="150px">
                     </td>
 
-                    <!-- Edit and delete -->
+                                                        <!-- Edit and delete -->
 
+                    
                     <span *ngIf="!editTelevisionStatus || editTelevisionIndex!==ind">
+
+                        <!-- Edit button -->
                         <button class="btn btn-primary btn-sm p-1 m-1" (click)="editTelevision(television,ind)"><i
                             class="fas fa-edit text-white"></i></button>
+
+                        <!-- delete button -->
                          <button class="btn btn-light btn-sm p-1 m-1"><i
                             class="fas fa-trash-alt text-danger" (click)="deleteTelevision(television)"></i></button> 
                     </span>
 
+                    <!-- Edit button of type submit -->
                     <span *ngIf="editTelevisionStatus && editTelevisionIndex==ind">
                         <button class="btn btn-sm btn-success" type="submit"><i
                                 class="fas fa-save text-white"></i></button>

@@ -1,16 +1,10 @@
-<!-- <a class="nav-link " routerLink="viewmobiles" routerLinkActive="active"></a>
-   
-  
-<div class="container">
-    <router-outlet></router-outlet>
-</div> -->
-
+<!-- Search bar to search for mobiles -->
 <input type="text" name="productTitle" placeholder="Search by brand" class="form-control mt-4" 
     [(ngModel)]= "searchTerm">
 
 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 mt-4">
 
-    <!-- Implementing search pipe and async pipe -->
+    <!--displaying mobiles and Implementing search pipe and async pipe -->
     <div class="col" *ngFor='let mobileObj of mobilesData | search:searchTerm'>
         <app-mobiledetails  [productObj]=mobileObj></app-mobiledetails>
     </div>

@@ -12,6 +12,8 @@
 
                         <!-- product title -->
                         <td>
+                            <!-- code for swap edit and save -->
+                        <!-- while editing save button appears -->
                             <span *ngIf="!editMobileStatus || editMobileIndex!==ind">
                                 {{mobile.productTitle}}
                             </span>
@@ -33,15 +35,22 @@
                         <td>
                             <img src={{mobile.productImage}} alt="" width="120px">
                         </td>
-                        <!-- edit  and delete -->
+                                                        <!-- edit  and delete -->
+
+
                         <td>
                             <span *ngIf="!editMobileStatus || editMobileIndex!==ind">
+
+                                <!-- Edit button -->
                                 <button class="btn btn-primary btn-sm p-1 m-1" (click)="editMobile(mobile,ind)">
                                     <i class="fas fa-edit text-light"></i></button>
+
+                                    <!-- delete button -->
                                 <button class="btn btn-light btn-sm p-1 m-1">
                                     <i class="fas fa-trash-alt text-danger" (click)="deleteMobile(mobile)"></i></button>
                             </span>
 
+                             <!-- Edit button of type submit -->
                             <span *ngIf="editMobileStatus && editMobileIndex==ind">
                                 <button class="btn btn-sm btn-success" type="submit"><i
                                         class="fas fa-save text-white"></i></button>

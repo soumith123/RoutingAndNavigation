@@ -10,6 +10,7 @@ import { TelevisionsdataService } from 'src/app/televisionsdata.service';
 })
 export class AddtelevisionsComponent implements OnInit {
 
+  //  accessing data from television data service....and injecting route
   constructor(private telObj:TelevisionsdataService, private router:Router ) { }
 
   ngOnInit(): void {
@@ -17,11 +18,15 @@ export class AddtelevisionsComponent implements OnInit {
 
   televisionModel=new Televisions('','','');
 
-  onSubmitNewTelevision(){
-    
+  onSubmitNewTelevision()
+  {
+    // subscribing method to television service to save entered data into televsion product
+    // and saving it also in db.json
       this.telObj.createNewTelevision(this.televisionModel).subscribe(
         res=>
         {
+
+          // navigating to televisions after saving 
           this.router.navigateByUrl("products/televisions")
           
         },

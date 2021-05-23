@@ -9,5 +9,11 @@ import { MobilesdataService } from './mobilesdata.service';
 export class AppComponent {
   title = 'routingAndNavigation';
 
+
+  // Accessing methods from mobile data service for login and logout operation
+  //If user already logged in it shows logout...after clicking logout it shows login
+  // injecting 
   constructor(public navObj:MobilesdataService) {}
+
+
 }

@@ -1,7 +1,10 @@
+/* displaying nav items in white colour */
 a
 {
     color: white;
 }
+
+/* displaying actived nav item in bold  */
 .active.nav-link
 {
     font-weight: bold;

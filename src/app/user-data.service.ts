@@ -10,12 +10,14 @@ export class UserDataService {
 
   constructor(private hc:HttpClient) {}
 
+  // getting user from id...after clicking the id button
   getUserById(id):Observable<Users>
   {
     return this.hc.get<Users>("http://localhost:3000/users/"+id)
   }
 
-  
+
+  // getting user from database by get method  
   getUser():Observable<Users[]>
   {
     return this.hc.get<Users[]>("http://localhost:3000/users")

@@ -9,13 +9,17 @@ import { Product } from '../models/products.model';
 })
 export class BikesComponent implements OnInit {
 
+  // insatnce variable to search for bike
   searchTerm:string;
 
   bikesData:Product[]=[];
 
+  // injecting bikes service to access data
   constructor(private bikesObj:BikesdataService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+    // subscrbing to method to get data
     this.bikesObj.getbikesData().subscribe(
       bikes=>
       {

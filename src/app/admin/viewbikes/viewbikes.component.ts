@@ -10,12 +10,14 @@ import { Product } from 'src/app/models/products.model';
 })
 export class ViewbikesComponent implements OnInit {
 
+  // injecting bikes data service to access data
   constructor(private bikeObj:BikesdataService) { }
 
   bikes:Bikes[]=[];
 
   ngOnInit(): void 
   {
+    // subscribing to method to access data
     this.bikeObj.getbikesData().subscribe(
       res=>
       {
@@ -28,6 +30,7 @@ export class ViewbikesComponent implements OnInit {
     )
   }
 
+  // code to edit mobile
   editBikeIndex;
   editBikeObj=new Bikes('','','');
   editBikeStatus:boolean=false;
@@ -56,8 +59,10 @@ export class ViewbikesComponent implements OnInit {
     )
   }
 
+  // method to delete bike 
   deleteBike(bikeObj)
   {
+    // subscribing delete method from bikes data service
     this.bikeObj.deleteBike(bikeObj.id).subscribe(
       res=>
       {

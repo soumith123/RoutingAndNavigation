@@ -1,3 +1,4 @@
+/* giving styles to nav item */
 a
 {
     color: white;
@@ -8,6 +9,8 @@ a:hover
 {
     font-size:17px;
 }
+
+/* styles to active nav item */
 .active.nav-link
 {
     font-weight: bold; 

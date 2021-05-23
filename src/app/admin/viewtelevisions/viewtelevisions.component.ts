@@ -9,12 +9,15 @@ import { TelevisionsdataService } from 'src/app/televisionsdata.service';
 })
 export class ViewtelevisionsComponent implements OnInit {
 
+  // injecting to television service to get data
   constructor(private telObj:TelevisionsdataService) { }
 
   televisions:Televisions[]=[];
 
   ngOnInit(): void 
   {
+
+    // subscribing to method to access data 
     this.telObj.getTelevisionsData().subscribe(
       res=>
       {
@@ -28,8 +31,10 @@ export class ViewtelevisionsComponent implements OnInit {
     )
   }
 
+  // to edit the television
+
   editTelevisionIndex;
-  editTelevisionObj=new Televisions('','','');
+  editTelevisionObj=new Televisions('','','');   // giving 3 empty spaces for 3 variables in televisions model
   editTelevisionStatus:boolean=false;
 
   editTelevision(televisionObj,ind)
@@ -56,6 +61,7 @@ export class ViewtelevisionsComponent implements OnInit {
     )
   }
 
+  // method to delete the televsion
   deleteTelevision(televisionObj)
   {
     this.telObj.deleteTelevision(televisionObj.id).subscribe(

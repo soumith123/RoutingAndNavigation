@@ -11,6 +11,8 @@
 
                     <!-- Product Title -->
                     <td>
+                        <!-- code for swap edit and save -->
+                        <!-- while editing save button appears -->
                         <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
                             {{bike.productTitle}}
                         </span>
@@ -38,15 +40,20 @@
                         <img src="{{bike.productImage}}" width="150px">
                     </td>
 
-                    <!-- Edit and delete -->
+                                                <!-- Edit and delete -->
 
                     <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
+
+                         <!-- Edit button -->
                         <button class="btn btn-primary btn-sm p-1 m-1" (click)="editBike(bike,ind)"><i
                             class="fas fa-edit text-light"></i></button>
+
+                         <!-- delete button -->
                          <button class="btn btn-light btn-sm p-1 m-1"><i
                             class="fas fa-trash-alt text-danger" (click)="deleteBike(bike)"></i></button> 
                     </span>
 
+                    <!-- Edit button of type submit -->
                     <span *ngIf="editBikeStatus && editBikeIndex==ind">
                         <button class="btn btn-sm btn-success" type="submit"><i
                                 class="fas fa-save text-white"></i></button>

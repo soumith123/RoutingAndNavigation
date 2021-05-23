@@ -11,12 +11,14 @@ import { UserDataService } from '../user-data.service';
 export class UserDetailsComponent implements OnInit {
 
   userObj:Users;
+  
 
   //injecting usersdata service object
   constructor(private ar:ActivatedRoute, private fs:UserDataService) { }
 
   ngOnInit(): void 
   {
+
     //getting id from url
     let id=this.ar.snapshot.params.id;
     

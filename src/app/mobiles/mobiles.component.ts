@@ -9,13 +9,17 @@ import { Product } from '../models/products.model';
 })
 export class MobilesComponent implements OnInit {
 
+  // for search pipe
   searchTerm:string;
 
   mobilesData:Product[]=[];
 
+  // injecting mobile service to get data
   constructor(private mobObj:MobilesdataService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+    // subscrbing to method in mobile servie to get data
     this.mobObj.getMobilesData().subscribe(
       mobileData=>
       {

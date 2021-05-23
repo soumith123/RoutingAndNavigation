@@ -1,3 +1,4 @@
+/* displaying nav items in white */
 a
 {
     color: white;
@@ -9,6 +10,8 @@ a:hover
     color: tomato;
     background-color: white;
 }
+
+/* active nav item styles*/
 .active.nav-link
 {
     color: white;

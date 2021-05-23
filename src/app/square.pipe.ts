@@ -5,6 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SquarePipe implements PipeTransform {
 
+  // a pipe to perform square operation
   transform(value: number, ...args: unknown[]): number {
     return value*value;
   }

@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  // injecting router to admin after logged in
   constructor(private router:Router) { }
 
   ngOnInit(): void {
@@ -16,6 +17,8 @@ export class LoginComponent implements OnInit {
   onLogin(ref)
   {
     let userLoginObj=ref.value;
+
+    // giving rules to login
     
     if(userLoginObj.username!='admin')
     {
@@ -27,7 +30,7 @@ export class LoginComponent implements OnInit {
     }
     else
     {
-      // save username in local storage
+      // saving username in local storage
       localStorage.setItem("username","admin")
 
       //navigate to admin after entering details in login page

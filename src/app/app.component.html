@@ -15,10 +15,13 @@
           <a class="nav-link" routerLink="register"  routerLinkActive="active">Register</a>
         </li>
 
+        <!-- accessing method from mobile data service -->
+        <!-- if local storage null it returns login -->
         <li class="nav-item" *ngIf="!navObj.userLoginStatus()">
           <a class="nav-link" routerLink="login" routerLinkActive="active">Login</a>
         </li>
 
+        <!-- If local storage is not null(if already someone logged in) it shows logout button -->
         <li class="nav-item"  *ngIf="navObj.userLoginStatus()">
           <a class="nav-link" routerLink="login" routerLinkActive="active"(click)="navObj.userLogout()">Logout</a>
         </li>

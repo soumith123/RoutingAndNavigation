@@ -13,9 +13,13 @@ export class TelevisionsComponent implements OnInit {
 
   TelevisionsData:Product[]=[];
 
+  //injecting telsevision data serice..
   constructor(private mobObj:TelevisionsdataService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void 
+  {
+
+    // subscribing to the method in serice file(contains link of databse) to access details from databse
     this.mobObj.getTelevisionsData().subscribe(
       Televisions=>
       {

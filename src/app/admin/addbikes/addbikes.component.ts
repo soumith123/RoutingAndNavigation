@@ -11,6 +11,7 @@ import { Bikes } from 'src/app/models/bikes.model';
 })
 export class AddbikesComponent implements OnInit {
 
+  //  accessing data from bikes data service....and injecting route
   constructor(private bikeObj:BikesdataService, private router:Router) { }
 
   ngOnInit(): void {
@@ -18,11 +19,15 @@ export class AddbikesComponent implements OnInit {
 
   bikeModel=new Bikes('','','');
 
-  onSubmitNewBike(){
-    
+  onSubmitNewBike()
+  {
+    // subscribing method to bikes service to save entered data into bike product
+    // and saving it also in db.json    
       this.bikeObj.createNewBike(this.bikeModel).subscribe(
         res=>
         {
+
+          // navigating to bikes after saving 
           this.router.navigateByUrl("products/bikes")
           
         },

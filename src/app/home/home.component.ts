@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // data for working with pipes
   a="soumith";
   b="SOUMITH";
   c=12345;
