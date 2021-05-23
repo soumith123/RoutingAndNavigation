@@ -1,10 +1,10 @@
-<div class="container bg-light p-2">
+<div class="container p-2">
     <form #ref="ngForm" (ngSubmit)="saveBike(ref.value)">
         <table class="table text-center">
             <thead>
-                <th>Brand</th>
-                <th>Description</th>
-                <th>Image</th>
+                <th class="pb-3">Brand</th>
+                <th class="pb-3">Description</th>
+                <th class="pb-3">Image</th>
             </thead>
             <tbody>
                 <tr *ngFor="let bike of bikes; let ind=index">
@@ -41,9 +41,9 @@
                     <!-- Edit and delete -->
 
                     <span *ngIf="!editBikeStatus || editBikeIndex!==ind">
-                        <button class="btn btn-danger btn-sm p-1 m-1" (click)="editBike(bike,ind)"><i
-                            class="fas fa-edit text-warning"></i></button>
-                         <button class="btn btn-warning btn-sm p-1 m-1"><i
+                        <button class="btn btn-primary btn-sm p-1 m-1" (click)="editBike(bike,ind)"><i
+                            class="fas fa-edit text-light"></i></button>
+                         <button class="btn btn-light btn-sm p-1 m-1"><i
                             class="fas fa-trash-alt text-danger" (click)="deleteBike(bike)"></i></button> 
                     </span>
 

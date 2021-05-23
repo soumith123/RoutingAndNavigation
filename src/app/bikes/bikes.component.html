@@ -1,5 +1,9 @@
+
+<input type="text" name="productTitle" placeholder="Search by brand" class="form-control mt-4" 
+    [(ngModel)]="searchTerm">
+
 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 mt-4">
-    <div class="col" *ngFor='let bikeObj of bikesData'>
+    <div class="col" *ngFor='let bikeObj of bikesData | search:searchTerm'>
         <app-bikesdetails [productObj]=bikeObj></app-bikesdetails>
     </div>
 </div>

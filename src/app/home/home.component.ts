@@ -12,4 +12,13 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  a="soumith";
+  b="SOUMITH";
+  c=12345;
+  d=0.12;
+  e=new Date();
+
+  f=5;
+  
+
 }

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminGuard } from './admin.guard';
 import { BikesComponent } from './bikes/bikes.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FakedataComponent } from './fakedata/fakedata.component';
@@ -12,7 +13,6 @@ import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UsersComponent } from './users/users.component';
-import { ViewMobilesComponent } from './view-mobiles/view-mobiles.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
@@ -20,10 +20,7 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'contactus', component:ContactusComponent},
   {path:'products', component:ProductsComponent, children:[
-    {path:'mobiles', component:MobilesComponent,children:[
-      {path:'viewmobiles', component:ViewMobilesComponent},
-      {path:'' ,redirectTo:'/products/mobiles/viewmobiles', pathMatch:'full'}
-    ]},
+    {path:'mobiles', component:MobilesComponent},
     {path:'bikes', component:BikesComponent},
     {path:'televisions', component:TelevisionsComponent},
     {path:'', redirectTo:'mobiles', pathMatch:'full'},
@@ -31,7 +28,7 @@ const routes: Routes = [
   {path:'users', component:UsersComponent},
   {path:'users/:id', component:UserDetailsComponent},  
   {path:'', redirectTo:'/login', pathMatch:'full'},
-  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule), canActivate:[AdminGuard]},
   {path:'**', component:PagenotfoundComponent},
 
 ];

@@ -9,6 +9,8 @@ import { TelevisionsdataService } from '../televisionsdata.service';
 })
 export class TelevisionsComponent implements OnInit {
 
+  searchTerm:string;
+
   TelevisionsData:Product[]=[];
 
   constructor(private mobObj:TelevisionsdataService) { }

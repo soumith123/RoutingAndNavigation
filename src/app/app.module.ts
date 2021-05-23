@@ -19,8 +19,9 @@ import { TelevisionsComponent } from './televisions/televisions.component';
 import { MobiledetailsComponent } from './mobiledetails/mobiledetails.component';
 import { BikesdetailsComponent } from './bikesdetails/bikesdetails.component';
 import { TelevisionsdetailsComponent } from './televisionsdetails/televisionsdetails.component';
-import { ViewMobilesComponent } from './view-mobiles/view-mobiles.component';
 import {FormsModule} from '@angular/forms';
+import { SquarePipe } from './square.pipe';
+import { SearchPipe } from './search.pipe';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import {FormsModule} from '@angular/forms';
     MobiledetailsComponent,
     BikesdetailsComponent,
     TelevisionsdetailsComponent,
-    ViewMobilesComponent,
+    SquarePipe,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,

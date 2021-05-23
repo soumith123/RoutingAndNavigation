@@ -2,6 +2,7 @@ a
 {
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 a:hover
 {
@@ -9,5 +10,8 @@ a:hover
 }
 .active.nav-link
 {
-    font-weight: bold;    
+    font-weight: bold; 
+    background-color:white;
+    color: tomato;
+    border-radius: 20px;  
 }

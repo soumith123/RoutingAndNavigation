@@ -9,6 +9,8 @@ import { Product } from '../models/products.model';
 })
 export class MobilesComponent implements OnInit {
 
+  searchTerm:string;
+
   mobilesData:Product[]=[];
 
   constructor(private mobObj:MobilesdataService) { }

@@ -6,14 +6,21 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a class="navbar-brand" href="#"></a>
       <ul class="navbar-nav ms-auto p-1">
+        
         <li class="nav-item">
-          <a class="nav-link active" routerLink="home" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="home" routerLinkActive="active">Home</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" routerLink="register"  routerLinkActive="active">Register</a>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item" *ngIf="!navObj.userLoginStatus()">
           <a class="nav-link" routerLink="login" routerLinkActive="active">Login</a>
+        </li>
+
+        <li class="nav-item"  *ngIf="navObj.userLoginStatus()">
+          <a class="nav-link" routerLink="login" routerLinkActive="active"(click)="navObj.userLogout()">Logout</a>
         </li>
 
         <li class="nav-item">

@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {Observable} from 'rxjs';
 import { Mobiles } from './models/mobiles.model';
-import { Product } from './models/products.model';
 
 @Injectable({
   providedIn: 'root'
@@ -28,5 +27,22 @@ export class MobilesdataService {
   deleteMobile(id):Observable<any>{
     console.log("id is ",id)
     return this.hc.delete("http://localhost:3000/mobiles/"+id)
+  }
+
+  userLoginStatus():boolean
+  {
+    if(localStorage.getItem("username")==null)
+    {
+      return false;
+    }
+    else
+    {
+      return true;
+    }
+  }
+
+  userLogout()
+  {
+    localStorage.clear();
   }
 }

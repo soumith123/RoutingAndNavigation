@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MobilesdataService } from './mobilesdata.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'routingAndNavigation';
+
+  constructor(public navObj:MobilesdataService) {}
 }
