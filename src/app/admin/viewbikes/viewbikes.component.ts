@@ -13,6 +13,10 @@ export class ViewbikesComponent implements OnInit {
   // injecting bikes data service to access data
   constructor(private bikeObj:BikesdataService) { }
 
+  p=1;
+
+  searchTerm:string;
+
   bikes:Bikes[]=[];
 
   ngOnInit(): void 

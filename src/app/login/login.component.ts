@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     {
       alert('Invalid Username')
     }
-    else if(userLoginObj.password!='12345')
+    else if(userLoginObj.password!='123-12')
     {
       alert('Invalid Password')
     }
@@ -33,9 +33,11 @@ export class LoginComponent implements OnInit {
       // saving username in local storage
       localStorage.setItem("username","admin")
 
-      //navigate to admin after entering details in login page
+     // navigate to admin after entering details in login page
       this.router.navigateByUrl('/admin')
     }
   }
 
 }
+
+

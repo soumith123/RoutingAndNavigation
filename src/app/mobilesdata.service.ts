@@ -48,9 +48,7 @@ export class MobilesdataService {
 
   
   
-  //  Method for login and logout...if user already logged in it shows logout..after clicking
-  // logout it shows login
-
+  //  Method for login and logout...if user already logged in it shows logout..after clicking  logout, it shows login
   // It was accessed in app.component.ts
   userLoginStatus():boolean
   {
@@ -70,3 +68,6 @@ export class MobilesdataService {
     localStorage.clear();
   }
 }
+
+
+

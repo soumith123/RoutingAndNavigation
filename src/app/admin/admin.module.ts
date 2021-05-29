@@ -10,6 +10,7 @@ import { ViewbikesComponent } from './viewbikes/viewbikes.component';
 import { AddbikesComponent } from './addbikes/addbikes.component';
 import { ViewtelevisionsComponent } from './viewtelevisions/viewtelevisions.component';
 import { AddtelevisionsComponent } from './addtelevisions/addtelevisions.component'
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { AddtelevisionsComponent } from './addtelevisions/addtelevisions.compone
     CommonModule,
     AdminRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule,
   ]
 })
 export class AdminModule { }

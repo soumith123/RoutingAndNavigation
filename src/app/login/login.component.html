@@ -1,17 +1,50 @@
 <div class="container w-50 d-block mx-auto border border-black mt-5">
     <!-- Heading for login Form -->
-    <img src="/assets/register.svg" width="22%" class="d-block mx-auto">
-    <h1 class="text-center text-primary mb-4"><i class="fas fa-sign-in-alt me-2"></i>Login Form</h1>
+     <img src="/assets/register.svg" width="22%" class="d-block mx-auto">
+    <h1 class="text-center text-primary mb-4"><i class="fas fa-sign-in-alt me-2"></i>Login Form</h1> 
 
     <!-- Creating form for login -->
-    <form #ref="ngForm"  (ngSubmit)="onLogin(ref)"> 
+     <form #ref="ngForm"  (ngSubmit)="ref.form.valid && onLogin(ref)"> 
+
+                                <!-- Usename field -->
 
         <label for="un" class="form-label mt-3"><i class="fas fa-user-plus me-2"></i>Username</label>
-        <input type="text" class="form-control" name="username" id="un" placeholder="Enter Username..." ngModel>
 
+        <!-- giving minlength and required and assigning reference -->
+        <input type="text" class="form-control" name="username" id="un" placeholder="Enter Username..." 
+            ngModel required minlength="4" #refUsername="ngModel" autocomplete="off"> 
+
+        <!-- giving code to generate message if user enters wrong details -->
+        <p class="text-warning" *ngIf="(ref.submitted || refUsername.touched) && refUsername.errors?.required">
+            *Username is required
+        </p>
+
+        <!-- generating error if user enters charecters less thsn 4 -->
+        <p class="text-warning" *ngIf="(ref.submitted || refUsername.touched) && refUsername.errors?.minlength">
+            *Minimum length of Username  is 4 charecters
+    </p>
+
+
+                                    <!-- Password Field -->
+
+        
         <label for="pw" class="form-label mt-3"><i class="fas fa-lock me-2"></i>Password</label>
-        <input type="password" class="form-control" name="password" id="pw" placeholder="Enter Password..." ngModel>
 
-        <button type="submit" class="btn btn-success d-block mx-auto mt-3 mb-5"><i class="fas fa-plus-circle ms-0 me-1"></i>Login</button>
+        <!-- giving  required, pattern and assigning reference -->
+        <input type="password" class="form-control" name="password" id="pw" placeholder="Enter Password..."
+         ngModel required pattern="\d\d\d-\d\d" #refPassword="ngModel">
+
+         <!-- giving code to generate message if user enters wrong details -->
+         <p class="text-warning" *ngIf="(ref.submitted || refPassword.touched) && refPassword.errors?.required">
+            *Password is required
+        </p>
+
+        <!-- generating error if user enters wrong pattern -->
+        <p class="text-warning" *ngIf="(ref.submitted || refPassword.touched) && refPassword.errors?.pattern">
+            *pattern is incorrcet (3 digits-2 digits)
+        </p>
+
+        <button type="submit" class="btn btn-success d-block mx-auto mt-5 mb-5"><i class="fas fa-plus-circle ms-0 me-1"></i>Login</button>
     </form>
-</div>
+</div> 
+

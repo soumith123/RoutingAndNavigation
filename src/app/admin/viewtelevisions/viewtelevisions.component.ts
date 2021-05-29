@@ -12,6 +12,8 @@ export class ViewtelevisionsComponent implements OnInit {
   // injecting to television service to get data
   constructor(private telObj:TelevisionsdataService) { }
 
+  searchTerm:string;
+
   televisions:Televisions[]=[];
 
   ngOnInit(): void 

@@ -10,6 +10,8 @@ import { Product } from 'src/app/models/products.model';
 })
 export class ViewproductsComponent implements OnInit {
 
+  searchTerm:string;
+
   editMobileIndex;
   editMobileObj=new Mobiles('','','')
   editMobileStatus:boolean=false;

@@ -9,7 +9,7 @@ button
 }
 .card:hover
 {
-    transform: scale(1.07);
+    transform: scale(1.03);
     margin-top: 5px;
 }
 #televisionName
